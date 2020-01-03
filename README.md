@@ -2,9 +2,9 @@
 							│  ├┤ ├─┤├┬┘│││├─┘├┬┘│ │
 							┴─┘└─┘┴ ┴┴└─┘└┘┴  ┴└─└─┘
 
-#SAMPLE CODES FOR LEARNERS
+# SAMPLE CODES FOR LEARNERS
 
-##ABOUT THIS PROJECT
+## ABOUT THIS PROJECT
 
 This project aims to provide a reasonable amount of scripts and code for beginners who - just as I am - are starting to learn how to code from the stratch. It is a way of docummenting my learning process and, at the same time, helping others in the meanwhile.
 
