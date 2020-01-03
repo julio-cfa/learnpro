@@ -1,6 +1,6 @@
-							**┬  ┌─┐┌─┐┬─┐┌┐┌┌─┐┬─┐┌─┐**
-							**│  ├┤ ├─┤├┬┘│││├─┘├┬┘│ │**
-							**┴─┘└─┘┴ ┴┴└─┘└┘┴  ┴└─└─┘**
+							┬  ┌─┐┌─┐┬─┐┌┐┌┌─┐┬─┐┌─┐
+							│  ├┤ ├─┤├┬┘│││├─┘├┬┘│ │
+							┴─┘└─┘┴ ┴┴└─┘└┘┴  ┴└─└─┘
 
 
 This project aims to provide a reasonable amount of scripts and code for beginners who - just as I am - are starting to learn how to code from the stratch. It is a way of docummenting my learning process and, at the same time, helping others in the meanwhile.
@@ -13,4 +13,4 @@ The codes available here are going to be extensively commented to make it easier
 
 Please note that, as a beginner, mistakes may be made. This is not a repository made by professionals for beginners, but by beginners for beginners.
 
-Enjoy!!
+Enjoy!
