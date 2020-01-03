@@ -20,4 +20,8 @@ The codes available here are going to be extensively commented to make it easier
 
 Please note that, as a beginner, mistakes may be made. This is not a repository made by professionals for beginners, but by beginners for beginners.
 
+**SCRIPTS**
+
+**Bulldozer:** it is a tool used to brute-force directories in websites, similar to the well-known tool 'dirb' and/or also 'dirsearch', also built in Pythin.
+
 Enjoy!
