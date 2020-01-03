@@ -14,7 +14,7 @@ else:
 		url1 = url1.rstrip('/')
 
 	if len(sys.argv) == 2:
-		wordfile = 'teste.txt'
+		wordfile = 'common.txt'
 	else:
 		wordfile = sys.argv[2]
 
