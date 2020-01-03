@@ -15,6 +15,7 @@ else:
 
 	if len(sys.argv) == 2:
 		wordfile = 'common.txt'
+
 	else:
 		wordfile = sys.argv[2]
 
