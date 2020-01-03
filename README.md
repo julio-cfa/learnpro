@@ -10,7 +10,7 @@
 
 ## ABOUT THIS PROJECT:
 
-This project aims to provide a reasonable amount of scripts and code for beginners who - just as I am - are starting to learn how to code from the stratch. It is a way of docummenting my learning process and, at the same time, helping others in the meanwhile.
+This project aims to provide a reasonable amount of scripts and code for beginners who — just as I am — are starting to learn how to code from the stratch. It is a way of docummenting my learning process and, at the same time, helping others in the meanwhile.
 
 As I see the importance of having readable and useful project samples for those who are kickstarting their path into programming, I've decided to put it together for anyone who is interested in reading and learning with simple code samples.
 
