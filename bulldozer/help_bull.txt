@@ -1,0 +1,7 @@
+BULLDOZER 1.0
+Made in Tokyo
+
+
+This tool was made to brute-force directories in websites and applications in a very simple way:
+
+It sends several requests containing well-known/common directories 
