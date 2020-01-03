@@ -9,9 +9,17 @@ if ('-h' in sys.argv[1]) or ('--help' in sys.argv[1]):
 
 else:
 
-	url1 = (sys.argv[1])
+	url1 = sys.argv[1]
+	if "/" in url1[-1]:
+		url1 = url1.rstrip('/')
 
-	wordlist = open('teste.txt', 'r')
+	if len(sys.argv) == 2:
+		wordfile = 'teste.txt'
+	else:
+		wordfile = sys.argv[2]
+
+	
+	wordlist = open(wordfile, 'r')
 	for line in wordlist:
 
 		if ("https://" in url1) or ("http://" in url1):
