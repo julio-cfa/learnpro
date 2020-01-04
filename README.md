@@ -24,4 +24,6 @@ Please note that, as a beginner, mistakes may be made. This is not a repository 
 
 **Bulldozer:** it is a tool used to brute-force directories in websites, similar to the well-known tool 'dirb' and 'dirsearch' - the latter also built in Python.
 
+**Methods:** Work in progress!
+
 Enjoy!
