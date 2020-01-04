@@ -1,7 +1,13 @@
 BULLDOZER 1.0
 Made in Tokyo
 
+The features included in this tool can be found in well-known and widely-used tools like dirb, gobuster, dirsearch, and so forth. If you want to understand a more robust approach to it, please check the aforementioned tools' source-code.
 
 This tool was made to brute-force directories in websites and applications in a very simple way:
 
-It sends several requests containing well-known/common directories 
+It sends several requests containing well-known/common directory names within a wordlist and it returns the status code to the user, informing which is the result of the request that was just sent.
+
+
+1 - The first argument must contain the URL with "http://" or "https://" included and no "/" at the end
+
+2 - The second argument must contain a wordlist as "/path/file". If not declared, Bulldozer will use a default wordlist.
