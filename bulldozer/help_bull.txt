@@ -7,7 +7,6 @@ This tool was made to brute-force directories in websites and applications in a 
 
 It sends several requests containing well-known/common directory names within a wordlist and it returns the status code to the user, informing which is the result of the request that was just sent.
 
-
 1 - The first argument must contain the URL with "http://" or "https://" included and no "/" at the end
 
 2 - The second argument must contain a wordlist as "/path/file". If not declared, Bulldozer will use a default wordlist.
