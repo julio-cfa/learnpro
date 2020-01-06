@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 #Made in Tokyo - v1.0
 
-import requests, sys
+import requests, sys, colorama
+from colorama import *
 
 
 if len(sys.argv) == 1:
@@ -38,7 +39,12 @@ else:
 
 
 			r = requests.get(url_usada, headers=headers1, cookies=cookies1)
-			print(f"{url_usada} - {r.status_code}")
+			
+			if r.status_code == 200:
+				print(f"{Fore.GREEN} {url_usada} - {r.status_code}")
+
+			else:
+				print(f"{Fore.RED} {url_usada} - {r.status_code}")
 		
 		else:
 			print("URL não contém 'https://' ou 'http://', tente novamente incluindo o protocolo")
