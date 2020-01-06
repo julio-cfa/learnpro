@@ -3,7 +3,12 @@
 
 import requests, sys
 
-if ('-h' in sys.argv[1]) or ('--help' in sys.argv[1]):
+
+if len(sys.argv) == 1:
+	with open('help_bull.txt', 'r') as bull_help:
+		print(bull_help.read())	
+
+elif (sys.argv[1] == '-h') or (sys.argv[1] == '--help'):
 	with open('help_bull.txt', 'r') as bull_help:
 		print(bull_help.read())
 
