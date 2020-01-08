@@ -8,13 +8,13 @@ from colorama import *
 # In this part of the code, we are checking whether there is an argument after th e script's name or not. When are using 'sys.argv', the argument that is set as 0 is the script's name, that's why we are using the number 1 here. Therefore, if the length of sys.argv equals one, that is, if there's only the script's name in the command line, then what is inside 'help_bull.txt' will be printed out.
 
 if len(sys.argv) == 1:
-	with open('help_bull.txt', 'r') as bull_help:
+	with open('docs/help_bull.txt', 'r') as bull_help:
 		print(bull_help.read())	
 
 # Here, we are checking whether the first argument passed right after the script's name is '-h' or '--help'. If it is either one, then what is inside the 'help_bull.txt' will be printed out, just as if there was no argument - as seen above.
 
 elif (sys.argv[1] == '-h') or (sys.argv[1] == '--help'):
-	with open('help_bull.txt', 'r') as bull_help:
+	with open('docs/help_bull.txt', 'r') as bull_help:
 		print(bull_help.read())
 
 else:
@@ -24,7 +24,7 @@ else:
 		url1 = url1.rstrip('/')
 
 	if len(sys.argv) == 2:
-		wordfile = 'common.txt'
+		wordfile = 'docs/common.txt'
 
 	else:
 		wordfile = sys.argv[2]
