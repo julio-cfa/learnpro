@@ -12,9 +12,15 @@ if len(sys.argv) == 1:
 
 else:
 
-
 # The URL is passed as an argument in the command line, the 'headers' variable contains the user-agent and the 'security_headers' list contains all the security headers to be tested.
 	url = sys.argv[1]
+	if ('https://' in url) or ('http://' in url):
+		url = sys.argv[1]
+	elif ('https://' not in url) or ('http://' not in url):
+		url = ('https://' + sys.argv[1])
+
+# Here we define the headers used in the request and the security headers that will be checked by this tool.
+
 	headers1 = {"User-Agent": "Mozilla/5.0 (Window s NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0"}
 	security_headers = ["STRICT-TRANSPORT-SECURITY", "PUBLIC-KEY-PINS", "X-FRAME-OPTIONS", "X-XSS-PROTECTION", "X-CONTENT-TYPE-OPTIONS", "CONTENT-SECURITY-POLICY", "X-PERMITTED-CROSS-DOMAIN-POLICIES", "REFERRER-POLICY", "EXPECT-CT", "FEATURE-POLICY", "CONTENT-SECURITY-POLICY-REPORT-ONLY", "X-PAGE-SPEED", "ACCESS-CONTROL-ALLOW-ORIGIN"]
 
@@ -28,7 +34,7 @@ else:
 necessary security headers or not. To know more about it, please
 check https://www.owasp.org/index.php/OWASP_Secure_Headers_Project.\n''')
 
-	print(COLORS[1] + "HTTP Security Headers Found:\n", Style.RESET_ALL)
+	print(f"{COLORS[1]}HTTP Security Headers Found:\n", Style.RESET_ALL)
 	for y in x:
 		y=y.upper()
 		if y in security_headers:
