@@ -24,6 +24,6 @@ Please note that, as a beginner, mistakes may be made. This is not a repository 
 
 **Bulldozer:** it is a tool used to brute-force directories in websites, similar to the well-known tool 'dirb' and 'dirsearch' - the latter also built in Python.
 
-**Methods:** work in progress!
-
+**Head:** it is a tool made to test the HTTP Security Headers within a website targeted by the user. It is similar to other scripts like --script=http-methods in NMAP and scripts in Nikto.
+ 
 Enjoy!
