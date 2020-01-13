@@ -33,8 +33,17 @@ else:
 
 # Then we print the URL and the security headers found and not found by using two 'FOR LOOPS', as seen below.
 
-	print(f"{COLORS[0]}\nTarget URL: {url}:\n", Style.RESET_ALL)
-	print('''This tool aims to test whether the target website has all the
+	print(f"{COLORS[0]}\nTarget URL: {url}\n", Style.RESET_ALL)
+	print('''------------------------------------------------
+
+| |_| |__   ___| | | | ___| |_ __ ___   ___| |_ 
+| __| '_ \ / _ \ |_| |/ _ \ | '_ ` _ \ / _ \ __|
+| |_| | | |  __/  _  |  __/ | | | | | |  __/ |_ 
+ \__|_| |_|\___|_| |_|\___|_|_| |_| |_|\___|\__|
+                                                
+------------------------------------------------
+
+This tool aims to test whether the target website has all the
 necessary security headers or not. To know more about it, please
 check https://www.owasp.org/index.php/OWASP_Secure_Headers_Project.\n''')
 
