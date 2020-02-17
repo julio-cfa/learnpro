@@ -45,7 +45,11 @@ else:
 
 This tool aims to test whether the target website has all the
 necessary security headers or not. To know more about it, please
-check https://www.owasp.org/index.php/OWASP_Secure_Headers_Project.\n''')
+check https://www.owasp.org/index.php/OWASP_Secure_Headers_Project.
+
+
+Disclaimer: Public-Key-Pins is now deprecated and browsers no longer
+support it in favor of Expect-CT.\n''')
 
 	print(f"{COLORS[1]}HTTP Security Headers Found:\n", Style.RESET_ALL)
 	for y in x:
